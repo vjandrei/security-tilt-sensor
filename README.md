@@ -24,5 +24,6 @@ if anyone tried to steal a motorcycle I would be immediately notified.
 
 1. Enter @Botfather in the search tab and choose this bot.
 2. Choose or type the /newbot command and send it.
-3. Choose a name for your bot — your subscribers will see it in the conversation. ...
+3. Choose a name for your bot — your subscribers will see it in the conversation. 
 4. Go to the @BotFather bot and send the command /token .
+[Read more here](https://sendpulse.com/knowledge-base/chatbot/create-telegram-chatbot)
