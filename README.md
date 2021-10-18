@@ -11,5 +11,6 @@ if anyone tried to steal a motorcycle I would be immediately notified.
 * 3D printer 
 * Telegram account and bot
 * Arduino IDE
+* Wifi
 
 
