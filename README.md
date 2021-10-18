@@ -43,11 +43,15 @@ The pin assignment is not strict and every pin can be reconfigured to another on
 <table>
     <tr>
         <th>Pin</th>
+        <th>GPIO</th>
         <th>Reference</th>
     </tr>
     <tr>
         <td>VCC</td>
-        <td rowspan="13"><image src="./images/tilt-sensor-module-pinout.jpg" /></td>
+        <td rowspan="13">
+            <image src="./images/tilt-sensor-module-pinout.jpg" />
+            <image src="./images/esp32_pinout.png" />
+        </td>
     </tr>
     <tr>
         <td>GND</td>
