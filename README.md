@@ -43,61 +43,17 @@ The pin assignment is not strict and every pin can be reconfigured to another on
 <table>
     <tr>
         <th>Pin</th>
-        <th>GPIO</th>
         <th>Reference</th>
     </tr>
     <tr>
-        <td>OE</td>
-        <td>13</td>
-        <td rowspan="13"><image src="./images" /></td>
+        <td>VCC</td>
+        <td rowspan="13"><image src="./tilt-sensor-module-pinout.jpg" /></td>
     </tr>
     <tr>
-        <td>CLK</td>
-        <td>14</td>
+        <td>GND</td>
     </tr>
     <tr>
-        <td>LAT</td>
-        <td>15</td>
-    </tr>
-    <tr>
-        <td>CH_A</td>
-        <td>26</td>
-    </tr>
-    <tr>
-        <td>CH_B</td>
-        <td>4</td>
-    </tr>
-    <tr>
-        <td>CH_C</td>
-        <td>27</td>
-    </tr>
-    <tr>
-        <td>CH_D</td>
-        <td>2</td>
-    </tr>
-    <tr>
-        <td>R1</td>
-        <td>5</td>
-    </tr>
-    <tr>
-        <td>G1</td>
-        <td>17</td>
-    </tr>
-    <tr>
-        <td>BL1</td>
-        <td>18</td>
-    </tr>
-    <tr>
-        <td>R2</td>
-        <td>19</td>
-    </tr>
-    <tr>
-        <td>G2</td>
-        <td>16</td>
-    </tr>
-    <tr>
-        <td>BL2</td>
-        <td>25</td>
+        <td>D0</td>
     </tr>
 </table>
 
