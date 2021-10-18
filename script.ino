@@ -7,8 +7,12 @@
 #include <ArduinoJson.h>
 
 // Wifi network credentials
-const char *ssid = "<add your wifi name>";
-const char *password = "<add your wifi password>";
+const char *WIFI_SSID = "<add your wifi name>";
+const char *WIFI_PASSWORD = "<add your wifi password>";
+
+// Initialize Telegram BOT  
+const char *BOT_TOKEN "<add your Telegram bot token>";
+const char *CHAT_ID "<add your chat ID>";
 
 // Initialize variables
 const int tiltSensorPin = 13;
@@ -17,25 +21,25 @@ int defaultState = 1;
 int runOnce = 0;
 boolean alertState = false;
 
+const char *READY_MESSAGE = "<your message here>"; 
+const char *TELEGRAM_WELCOME_MESSAGE = "<your message here>"; 
+const char *ALERT_MESSAGE = "<your message here>"
 
-// Initialize Telegram BOT  
-#define BOTtoken "<add your Telegram bot token>"  // your Bot Token (Get from Botfather)
-#define CHAT_ID "<add your chat ID>"
 
 // Secure client 
 WiFiClientSecure client;
-UniversalTelegramBot bot(BOTtoken, client);
+UniversalTelegramBot bot(BOT_TOKEN, client);
 
 void setup()
 {
   Serial.begin(115200);
   delay(3000);  
   
-  Serial.println("Ready for detecting motion");
-  Serial.println(ssid); 
+  Serial.println(READY_MESSAGE);
+  Serial.println(WIFI_SSID); 
   
   WiFi.mode(WIFI_STA);
-  WiFi.begin(ssid, password);
+  WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
 
   // Add root certificate for api.telegram.org
   client.setCACert(TELEGRAM_CERTIFICATE_ROOT); 
@@ -57,8 +61,8 @@ void setup()
   pinMode (ledPin, OUTPUT);
   
   // Message to bot and serial
-  Serial.println("<add your initial message for Telegram>");
-  bot.sendMessage(CHAT_ID, "<add your initial message for Telegram Bot>", "");
+  Serial.println(TELEGRAM_WELCOME_MESSAGE);
+  bot.sendMessage(CHAT_ID, TELEGRAM_WELCOME_MESSAGE, "");
 }
 
 
@@ -78,7 +82,7 @@ void loop() {
 }
 
 void tiltAlert() {
-    bot.sendMessage(CHAT_ID, "<add your alert message for Telegram Bot>");
+    bot.sendMessage(CHAT_ID, ALERT_MESSAGE);
     runOnce = 1;
 }
 
