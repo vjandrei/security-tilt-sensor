@@ -47,7 +47,7 @@ The pin assignment is not strict and every pin can be reconfigured to another on
     </tr>
     <tr>
         <td>VCC</td>
-        <td rowspan="13"><image src="./tilt-sensor-module-pinout.jpg" /></td>
+        <td rowspan="13"><image src="./images/tilt-sensor-module-pinout.jpg" /></td>
     </tr>
     <tr>
         <td>GND</td>
