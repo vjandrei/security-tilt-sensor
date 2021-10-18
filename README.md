@@ -83,9 +83,10 @@ The pin assignment is not strict and every pin can be reconfigured to another on
 
 ## Code
 
-Code is kind simple you need just change some parameters.
+Code is  simple you need just change some parameters.
 
-The `config_dummy.h` file hosts all the required configuration variables. This file must be renamed to `config.h` before uploading.
+The `script.ino` file hosts all the required configuration variables. 
+File must be created from `script.ino` before uploading to esp32 module.
 
 * `WIFI_SSID`: Access point SSID
 * `WIFI_PASSWORD`: Access point password
