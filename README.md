@@ -79,4 +79,4 @@ The pin assignment is not strict and every pin can be reconfigured to another on
 
 ### Assembly sensor and module to 3D printed case
 
-<image src="./images/tilt-sensor01.jpeg" />
+<image src="./images/tilt-sensor01.jpg" />
