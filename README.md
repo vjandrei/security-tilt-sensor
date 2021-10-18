@@ -48,6 +48,7 @@ The pin assignment is not strict and every pin can be reconfigured to another on
     </tr>
     <tr>
         <td>VCC</td>
+        <td>PIN1</td>
         <td rowspan="13">
             <image src="./images/tilt-sensor-module-pinout.jpg" />
             <image src="./images/esp32_pinout.png" />
@@ -55,9 +56,13 @@ The pin assignment is not strict and every pin can be reconfigured to another on
     </tr>
     <tr>
         <td>GND</td>
+        <td>PIN2</td>
+        <td></td>
     </tr>
     <tr>
         <td>D0</td>
+        <td>PIN13</td>
+        <td></td>
     </tr>
 </table>
 
