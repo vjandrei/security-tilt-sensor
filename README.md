@@ -47,6 +47,13 @@ The pin assignment is not strict and every pin can be reconfigured to another on
         <th>Reference</th>
     </tr>
     <tr>
+        <td></td>
+        <td></td>
+        <td>
+            <image src="./images/pin-connections.jpeg" />
+        </td>
+    </tr>
+    <tr>
         <td>VCC</td>
         <td>PIN1</td>
         <td>
