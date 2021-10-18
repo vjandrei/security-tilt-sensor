@@ -42,8 +42,8 @@ The pin assignment is not strict and every pin can be reconfigured to another on
 
 <table>
     <tr>
-        <th>Pin</th>
-        <th>GPIO</th>
+        <th>Pin LM393 sensor</th>
+        <th>GPIO ESP32 module</th>
         <th>Reference</th>
     </tr>
     <tr>
@@ -56,14 +56,17 @@ The pin assignment is not strict and every pin can be reconfigured to another on
     <tr>
         <td>VCC</td>
         <td>PIN1</td>
+         <td></td>
     </tr>
     <tr>
         <td>GND</td>
         <td>PIN2</td>
+         <td></td>
     </tr>
     <tr>
         <td>D0</td>
         <td>PIN13</td>
+        <td></td>
     </tr>
 </table>
 
