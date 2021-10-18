@@ -36,7 +36,9 @@ if anyone tried to steal a motorcycle I would be immediately notified.
 Download and print this case by Thingiverse user [Razurel](https://www.thingiverse.com/thing:3799608)
 It is a two part case. 
 
- <image src="./images/tilt-sensor02.jpeg" />
+<image src="./images/tilt-sensor02.jpeg" />
+
+>
 
 ### Pin connections
 
@@ -73,4 +75,8 @@ The pin assignment is not strict and every pin can be reconfigured to another on
 </table>
 
 
+>
 
+### Assembly sensor and module to 3D printed case
+
+<image src="./images/tilt-sensor01.jpeg" />
