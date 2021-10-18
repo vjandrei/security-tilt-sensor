@@ -80,3 +80,27 @@ The pin assignment is not strict and every pin can be reconfigured to another on
 ### Assembly sensor and module to 3D printed case
 
 <image src="./images/tilt-sensor01.jpg" />
+
+## Code
+
+Code is kind simple you need just change some parameters.
+
+The `config_dummy.h` file hosts all the required configuration variables. This file must be renamed to `config.h` before uploading.
+
+* `WIFI_SSID`: Access point SSID
+* `WIFI_PASSWORD`: Access point password
+* `MQTT_SERVER`: MQTT server address or IP
+* `MQTT_PORT`: MQTT server port, default value: `1883`
+* `HOST_NAME`: Host name, default value: `IoTRGBLEDMatrix`
+* `MQTT_USERNAME`: (optional) MQTT server user name
+* `MQTT_PASSWORD`: (optional) MQTT server password
+* `MQTT_TOPIC_DISPLAY`: MQTT topic to listen to for the frame updates
+
+The `MQTT_USERNAME` and `MQTT_PASSWORD` definitions are optional, they can be commented out if authentication has not been enabled on the server.
+
+The HiveMQ MQTT broker configured by default publishes a "word clock" display (like the image above), provided by my own Node-RED server. This is an example for testing purposes only.
+
+
+# License
+
+This software is licensed under [GNU General Public License](https://en.wikipedia.org/wiki/GNU_General_Public_License).
