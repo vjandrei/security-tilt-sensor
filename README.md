@@ -30,13 +30,15 @@ if anyone tried to steal a motorcycle I would be immediately notified.
 [Read more here](https://sendpulse.com/knowledge-base/chatbot/create-telegram-chatbot)
 
 
+
 ### 3D print case
 
 Download and print this case by Thingiverse user [Razurel](https://www.thingiverse.com/thing:3799608)
+It is a two part case. 
 
-### Wireup pin connections
+ <image src="./images/tilt-sensor02.jpeg" />
 
-## Pin connections
+### Pin connections
 
 The pin assignment is not strict and every pin can be reconfigured to another one, but it is recommended to follow the pinout below so it would work with the unmodified code:
 
