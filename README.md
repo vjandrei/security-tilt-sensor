@@ -13,5 +13,3 @@ if anyone tried to steal a motorcycle I would be immediately notified.
 * Arduino IDE
 
 
-
-
