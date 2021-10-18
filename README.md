@@ -89,16 +89,11 @@ The `config_dummy.h` file hosts all the required configuration variables. This f
 
 * `WIFI_SSID`: Access point SSID
 * `WIFI_PASSWORD`: Access point password
-* `MQTT_SERVER`: MQTT server address or IP
-* `MQTT_PORT`: MQTT server port, default value: `1883`
-* `HOST_NAME`: Host name, default value: `IoTRGBLEDMatrix`
-* `MQTT_USERNAME`: (optional) MQTT server user name
-* `MQTT_PASSWORD`: (optional) MQTT server password
-* `MQTT_TOPIC_DISPLAY`: MQTT topic to listen to for the frame updates
-
-The `MQTT_USERNAME` and `MQTT_PASSWORD` definitions are optional, they can be commented out if authentication has not been enabled on the server.
-
-The HiveMQ MQTT broker configured by default publishes a "word clock" display (like the image above), provided by my own Node-RED server. This is an example for testing purposes only.
+* `BOT_TOKEN`: Get it from Telegram Bot_Father
+* `CHAT_ID`: 
+* `READY_MESSAGE`:(optional) Some message to Serial port 
+* `TELEGRAM_WELCOME_MESSAGE`: (optional) Some message to Telegram Bot chat when the unit is ready
+* `ALERT_MESSAGE`: (optional) The message you liked to have when the sensor state is changed.
 
 
 # License
