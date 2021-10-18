@@ -18,7 +18,7 @@ This repo is project to tilt sensor surveillance system for example motorcycle.
 
 ## Let's start
 
-### Make Telegram Bot
+### 🤖 Make Telegram Bot
 
 1. Enter @Botfather in the search tab and choose this bot.
 2. Choose or type the /newbot command and send it.
@@ -29,7 +29,7 @@ This repo is project to tilt sensor surveillance system for example motorcycle.
 
 
 
-### 3D print case
+### 🖨 3D print case
 
 Download and print this case by Thingiverse user [Razurel](https://www.thingiverse.com/thing:3799608)
 It is a two part case. 
@@ -38,7 +38,7 @@ It is a two part case.
 
 >
 
-### Pin connections
+### 🥽 Pin connections
 
 The pin assignment is not strict and every pin can be reconfigured to another one, but it is recommended to follow the pinout below so it would work with the unmodified code:
 
@@ -75,11 +75,11 @@ The pin assignment is not strict and every pin can be reconfigured to another on
 
 >
 
-### Assembly sensor and module to 3D printed case
+### 🏗 Assembly sensor and module to 3D printed case
 
 <image src="./images/tilt-sensor01.jpg" />
 
-## Code
+## 🧑‍💻 Code
 
 Code is  simple you need just change some parameters.
 
