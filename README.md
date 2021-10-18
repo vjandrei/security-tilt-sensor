@@ -57,12 +57,10 @@ The pin assignment is not strict and every pin can be reconfigured to another on
     <tr>
         <td>GND</td>
         <td>PIN2</td>
-        <td></td>
     </tr>
     <tr>
         <td>D0</td>
         <td>PIN13</td>
-        <td></td>
     </tr>
 </table>
 
